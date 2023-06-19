@@ -11,7 +11,7 @@ from gensim.utils import simple_preprocess
 import nest_asyncio
 nest_asyncio.apply()
 
-bot = Bot(token="5280553253:AAHCawZezSJ-D6sUovn-t4i_1pKlTvM9Aig")
+bot = Bot(token="5193982529:AAH1PsHOCJSEInB9DmkEgst6_vGF6PkrE6s")
 dp = Dispatcher(bot)
 
 vowels = ["а", "о", "у", "ы", "э", "я", "ё", "ю", "и", "е"]
