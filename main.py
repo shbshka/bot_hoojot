@@ -30,7 +30,7 @@ async def reply_to_message(message: types.Message):
     sentences = []
     sentence_words = []
     words = []
-    text = "Привет! Как дела?"
+    text = message.text
 
     for sentence in tokenizer.split_into_sentences(text):
         sentences.append(sentence)
