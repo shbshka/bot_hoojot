@@ -45,7 +45,7 @@ async def reply_to_message(message: types.Message):
 
     answers = ""
     for word in words:
-        if word in '!@#$%^&*()_+-—=…?/`\|><,.':
+        if word in '!@#$%^&*()_+-—=…?/`\|><,.\'\"':
             words.remove(word)
 
     for word in words:
